@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="400" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#333">
+    Stand-Off Spacer - Realistic View
+  </text>
+  
+  <!-- Main cylindrical body -->
+  <ellipse cx="250" cy="200" rx="80" ry="60" fill="#e9ecef" stroke="#495057" stroke-width="2"/>
+  
+  <!-- Male side (M3) - top half -->
+  <ellipse cx="250" cy="140" rx="80" ry="60" fill="#6c757d" stroke="#495057" stroke-width="2"/>
+  
+  <!-- Female side (M2.5) - bottom half -->
+  <ellipse cx="250" cy="260" rx="80" ry="60" fill="#adb5bd" stroke="#495057" stroke-width="2"/>
+  
+  <!-- Thread representations -->
+  <!-- Male M3 thread (external) -->
+  <ellipse cx="250" cy="140" rx="25" ry="18" fill="none" stroke="#495057" stroke-width="2"/>
+  <ellipse cx="250" cy="140" rx="20" ry="15" fill="none" stroke="#495057" stroke-width="1" stroke-dasharray="2,2"/>
+  <ellipse cx="250" cy="140" rx="15" ry="12" fill="none" stroke="#495057" stroke-width="1" stroke-dasharray="2,2"/>
+  
+  <!-- Female M2.5 thread (internal) -->
+  <ellipse cx="250" cy="260" rx="20" ry="15" fill="none" stroke="#495057" stroke-width="2"/>
+  <ellipse cx="250" cy="260" rx="15" ry="12" fill="none" stroke="#495057" stroke-width="1" stroke-dasharray="2,2"/>
+  <ellipse cx="250" cy="260" rx="10" ry="8" fill="none" stroke="#495057" stroke-width="1" stroke-dasharray="2,2"/>
+  
+  <!-- Thread center lines -->
+  <line x1="225" y1="140" x2="275" y2="140" stroke="#495057" stroke-width="1"/>
+  <line x1="225" y1="260" x2="275" y2="260" stroke="#495057" stroke-width="1"/>
+  
+  <!-- Labels -->
+  <text x="250" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" font-weight="bold">
+    MALE SIDE (M3)
+  </text>
+  <text x="250" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    6mm Length
+  </text>
+  
+  <text x="250" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" font-weight="bold">
+    FEMALE SIDE (M2.5)
+  </text>
+  <text x="250" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">
+    6mm Length
+  </text>
+  
+  <!-- Dimensions -->
+  <!-- Total length -->
+  <line x1="50" y1="140" x2="50" y2="260" stroke="#dc3545" stroke-width="3"/>
+  <line x1="45" y1="140" x2="55" y2="140" stroke="#dc3545" stroke-width="3"/>
+  <line x1="45" y1="260" x2="55" y2="260" stroke="#dc3545" stroke-width="3"/>
+  <text x="35" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#dc3545" font-weight="bold" transform="rotate(-90, 35, 200)">
+    12mm TOTAL
+  </text>
+  
+  <!-- Male side dimension -->
+  <line x1="350" y1="140" x2="350" y2="200" stroke="#28a745" stroke-width="2"/>
+  <line x1="345" y1="140" x2="355" y2="140" stroke="#28a745" stroke-width="2"/>
+  <line x1="345" y1="200" x2="355" y2="200" stroke="#28a745" stroke-width="2"/>
+  <text x="370" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#28a745" font-weight="bold">
+    6mm
+  </text>
+  
+  <!-- Female side dimension -->
+  <line x1="350" y1="200" x2="350" y2="260" stroke="#007bff" stroke-width="2"/>
+  <line x1="345" y1="200" x2="355" y2="200" stroke="#007bff" stroke-width="2"/>
+  <line x1="345" y1="260" x2="355" y2="260" stroke="#007bff" stroke-width="2"/>
+  <text x="370" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#007bff" font-weight="bold">
+    6mm
+  </text>
+  
+  <!-- Thread details -->
+  <text x="250" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#495057">
+    M3 External Thread (3mm diameter)
+  </text>
+  <text x="250" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#495057">
+    M2.5 Internal Thread (2.5mm diameter)
+  </text>
+  
+  <!-- Material and finish indicators -->
+  <rect x="50" y="300" width="400" height="80" fill="white" stroke="#dee2e6" stroke-width="2"/>
+  <text x="250" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333" font-weight="bold">
+    Hardware Specifications
+  </text>
+  
+  <text x="60" y="340" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Total Length: 12mm
+  </text>
+  <text x="60" y="355" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Male Side: 6mm length, M3×0.5 external thread
+  </text>
+  <text x="60" y="370" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Female Side: 6mm length, M2.5×0.45 internal thread
+  </text>
+  <text x="300" y="370" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Material: Brass/Aluminum
+  </text>
+  
+  <!-- Scale indicator -->
+  <line x1="400" y1="320" x2="450" y2="320" stroke="#333" stroke-width="2"/>
+  <text x="425" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">
+    50mm scale
+  </text>
+</svg>
