@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="500" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="300" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#333">
+    3D Stand-Off Perspective View
+  </text>
+  
+  <!-- 3D stand-off body -->
+  <!-- Main body (3D rectangle) -->
+  <polygon points="150,100 450,100 500,150 500,350 450,400 150,400 100,350 100,150" 
+           fill="#e9ecef" stroke="#495057" stroke-width="2"/>
+  
+  <!-- Male side (M3) - top -->
+  <polygon points="150,100 450,100 500,150 500,200 450,250 150,250 100,200 100,150" 
+           fill="#6c757d" stroke="#495057" stroke-width="2"/>
+  
+  <!-- Female side (M2.5) - bottom -->
+  <polygon points="150,250 450,250 500,200 500,350 450,400 150,400 100,350 100,200" 
+           fill="#adb5bd" stroke="#495057" stroke-width="2"/>
+  
+  <!-- Thread representations -->
+  <!-- Male M3 thread -->
+  <ellipse cx="300" cy="175" rx="40" ry="25" fill="none" stroke="#495057" stroke-width="2"/>
+  <ellipse cx="300" cy="175" rx="30" ry="18" fill="none" stroke="#495057" stroke-width="1" stroke-dasharray="3,3"/>
+  <ellipse cx="300" cy="175" rx="20" ry="12" fill="none" stroke="#495057" stroke-width="1" stroke-dasharray="3,3"/>
+  
+  <!-- Female M2.5 thread -->
+  <ellipse cx="300" cy="325" rx="35" ry="22" fill="none" stroke="#495057" stroke-width="2"/>
+  <ellipse cx="300" cy="325" rx="25" ry="16" fill="none" stroke="#495057" stroke-width="1" stroke-dasharray="3,3"/>
+  <ellipse cx="300" cy="325" rx="15" ry="10" fill="none" stroke="#495057" stroke-width="1" stroke-dasharray="3,3"/>
+  
+  <!-- Thread center lines -->
+  <line x1="260" y1="175" x2="340" y2="175" stroke="#495057" stroke-width="1"/>
+  <line x1="260" y1="325" x2="340" y2="325" stroke="#495057" stroke-width="1"/>
+  
+  <!-- Labels -->
+  <text x="300" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="white" font-weight="bold">
+    MALE SIDE (M3)
+  </text>
+  <text x="300" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">
+    6mm Length
+  </text>
+  
+  <text x="300" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="white" font-weight="bold">
+    FEMALE SIDE (M2.5)
+  </text>
+  <text x="300" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">
+    6mm Length
+  </text>
+  
+  <!-- 3D dimensions -->
+  <!-- Total height -->
+  <line x1="80" y1="100" x2="80" y2="400" stroke="#dc3545" stroke-width="3"/>
+  <line x1="75" y1="100" x2="85" y2="100" stroke="#dc3545" stroke-width="3"/>
+  <line x1="75" y1="400" x2="85" y2="400" stroke="#dc3545" stroke-width="3"/>
+  <text x="65" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#dc3545" font-weight="bold" transform="rotate(-90, 65, 250)">
+    12mm TOTAL
+  </text>
+  
+  <!-- Male side height -->
+  <line x1="520" y1="100" x2="520" y2="250" stroke="#28a745" stroke-width="2"/>
+  <line x1="515" y1="100" x2="525" y2="100" stroke="#28a745" stroke-width="2"/>
+  <line x1="515" y1="250" x2="525" y2="250" stroke="#28a745" stroke-width="2"/>
+  <text x="540" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#28a745" font-weight="bold">
+    6mm
+  </text>
+  
+  <!-- Female side height -->
+  <line x1="520" y1="250" x2="520" y2="400" stroke="#007bff" stroke-width="2"/>
+  <line x1="515" y1="250" x2="525" y2="250" stroke="#007bff" stroke-width="2"/>
+  <line x1="515" y1="400" x2="525" y2="400" stroke="#007bff" stroke-width="2"/>
+  <text x="540" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#007bff" font-weight="bold">
+    6mm
+  </text>
+  
+  <!-- Thread specifications -->
+  <text x="300" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#495057">
+    M3 Thread (3mm diameter)
+  </text>
+  <text x="300" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#495057">
+    M2.5 Thread (2.5mm diameter)
+  </text>
+  
+  <!-- Connection arrows -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#dc3545"/>
+    </marker>
+  </defs>
+  
+  <!-- Connection lines -->
+  <line x1="300" y1="250" x2="300" y2="250" stroke="#dc3545" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="300" y1="250" x2="300" y2="250" stroke="#dc3545" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Specifications box -->
+  <rect x="50" y="420" width="500" height="60" fill="white" stroke="#dee2e6" stroke-width="2"/>
+  <text x="300" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#333" font-weight="bold">
+    3D Stand-Off Specifications
+  </text>
+  
+  <text x="60" y="460" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Total Height: 12mm
+  </text>
+  <text x="60" y="475" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Male Side: 6mm height, M3×0.5 thread
+  </text>
+  <text x="300" y="475" font-family="Arial, sans-serif" font-size="12" fill="#333">
+    • Female Side: 6mm height, M2.5×0.45 thread
+  </text>
+  
+  <!-- Perspective indicators -->
+  <text x="500" y="150" font-family="Arial, sans-serif" font-size="10" fill="#666">
+    Front
+  </text>
+  <text x="100" y="150" font-family="Arial, sans-serif" font-size="10" fill="#666">
+    Back
+  </text>
+  
+  <!-- Scale indicator -->
+  <line x1="450" y1="430" x2="500" y2="430" stroke="#333" stroke-width="2"/>
+  <text x="475" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333">
+    50mm scale
+  </text>
+</svg>

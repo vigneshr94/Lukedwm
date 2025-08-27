@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="200" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">
+    Stand-Off Technical Drawing
+  </text>
+  
+  <!-- Main stand-off body -->
+  <rect x="150" y="80" width="100" height="120" fill="#e9ecef" stroke="#495057" stroke-width="2"/>
+  
+  <!-- Male side (M3) -->
+  <rect x="150" y="80" width="100" height="60" fill="#6c757d" stroke="#495057" stroke-width="2"/>
+  <text x="200" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" font-weight="bold">
+    MALE SIDE
+  </text>
+  <text x="200" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">
+    M3/3mm
+  </text>
+  <text x="200" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">
+    6mm Length
+  </text>
+  
+  <!-- Female side (M2.5) -->
+  <rect x="150" y="140" width="100" height="60" fill="#adb5bd" stroke="#495057" stroke-width="2"/>
+  <text x="200" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" font-weight="bold">
+    FEMALE SIDE
+  </text>
+  <text x="200" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">
+    M2.5/2.5mm
+  </text>
+  <text x="200" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">
+    6mm Length
+  </text>
+  
+  <!-- Total length dimension -->
+  <line x1="120" y1="80" x2="120" y2="200" stroke="#dc3545" stroke-width="2"/>
+  <line x1="115" y1="80" x2="125" y2="80" stroke="#dc3545" stroke-width="2"/>
+  <line x1="115" y1="200" x2="125" y2="200" stroke="#dc3545" stroke-width="2"/>
+  <text x="110" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#dc3545" font-weight="bold" transform="rotate(-90, 110, 140)">
+    12mm TOTAL
+  </text>
+  
+  <!-- Male side dimension -->
+  <line x1="280" y1="80" x2="280" y2="140" stroke="#28a745" stroke-width="2"/>
+  <line x1="275" y1="80" x2="285" y2="80" stroke="#28a745" stroke-width="2"/>
+  <line x1="275" y1="140" x2="285" y2="140" stroke="#28a745" stroke-width="2"/>
+  <text x="300" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#28a745" font-weight="bold">
+    6mm
+  </text>
+  
+  <!-- Female side dimension -->
+  <line x1="280" y1="140" x2="280" y2="200" stroke="#007bff" stroke-width="2"/>
+  <line x1="275" y1="140" x2="285" y2="140" stroke="#007bff" stroke-width="2"/>
+  <line x1="275" y1="200" x2="285" y2="200" stroke="#007bff" stroke-width="2"/>
+  <text x="300" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#007bff" font-weight="bold">
+    6mm
+  </text>
+  
+  <!-- Thread representation -->
+  <circle cx="200" cy="110" r="15" fill="none" stroke="#495057" stroke-width="1" stroke-dasharray="3,3"/>
+  <circle cx="200" cy="170" r="12" fill="none" stroke="#495057" stroke-width="1" stroke-dasharray="3,3"/>
+  
+  <!-- Thread labels -->
+  <text x="200" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#495057">
+    M3 Thread
+  </text>
+  <text x="200" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#495057">
+    M2.5 Thread
+  </text>
+  
+  <!-- Legend -->
+  <rect x="50" y="220" width="300" height="60" fill="white" stroke="#dee2e6" stroke-width="1"/>
+  <text x="60" y="240" font-family="Arial, sans-serif" font-size="12" fill="#333" font-weight="bold">
+    Specifications:
+  </text>
+  <text x="60" y="255" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    • Total Length: 12mm
+  </text>
+  <text x="60" y="270" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    • Male Side: 6mm length, M3/3mm thread
+  </text>
+  <text x="200" y="270" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    • Female Side: 6mm length, M2.5/2.5mm thread
+  </text>
+</svg>
